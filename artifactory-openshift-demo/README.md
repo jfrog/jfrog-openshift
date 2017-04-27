@@ -10,9 +10,10 @@ Run the two scripts inside in the order mentioned below and the first script wil
 
 *   Please download the Openshift CLI from [here](https://docs.openshift.com/container-platform/3.5/cli_reference/get_started_cli.html#installing-the-cli) and put the binary into your bin folder (usually /usr/local/bin).
 *   Docker version 1.13.1(15353) is required to run these scripts. Please use this specific version as there are known issues with other docker versions.
+    *   You can download this version [here](https://download.docker.com/mac/stable/1.13.1.15353/Docker.dmg) *This is an old release of Docker.*
 *   socat is another dependency which is required to run these scripts.
-    *   Download the package from [here](http://www.dest-unreach.org/socat/)
-    *   For mac users: `brew install socat`
+    *   Download the package from [here](http://www.dest-unreach.org/socat/).
+    *   For mac users: `brew install socat`.
 *   Run the os.sh script and then run the install-art.sh script.
 
 # Final Steps :
