@@ -6,7 +6,7 @@ These scripts will help you set up a local Openshift cluster using **'oc cluster
 
 Run the two scripts inside in the order mentioned below and the first script will set up an openshift cluster locally as a docker container on your local machine. The other script will install Postgres and Artifactory on Openshift.
 
-# Installation:
+# Pre-Reqs:
 
 *   Please download the Openshift CLI from [here](https://github.com/openshift/origin/releases/tag/v1.4.1) and put the binary into your bin folder (usually /usr/local/bin).
 *   Docker version 1.13.1(15353) is required to run these scripts. Please use this specific version as there are known issues with other docker versions.
