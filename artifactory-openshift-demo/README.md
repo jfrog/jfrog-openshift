@@ -1,10 +1,10 @@
 # Synopsis:
 
-These scripts will help you set up a local Openshift cluster using **```oc cluster up```**. This is a single node cluster for dev purposes and doesnt have any persisitent volumes. **Please do not use this setup for any production use cases.**
+These scripts will help you set up a local Openshift cluster using **```oc cluster up```**. This is a single node cluster for trial purposes and does not have any persisitent volumes. **Please do not use this setup for any production use cases.**
 
 # Script Examples:
 
-Run the two scripts inside in the order mentioned below and the first script will set up an openshift cluster locally as a docker container on your local machine. The other script will install Postgres and Artifactory on Openshift.
+Run the two scripts inside in the order mentioned below, the first script will set up an openshift cluster as a docker container on your local machine. The other script will install Postgres and Artifactory on that Openshift cluster.
 
 # Pre-Reqs:
 
