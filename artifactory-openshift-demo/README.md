@@ -1,6 +1,6 @@
 # Synopsis:
 
-These scripts will help you set up a local Openshift cluster using **'oc cluster up'**. This is a single node cluster for dev purposes and doesnt have any persisitent volumes. **Please do not use this setup for any production use cases.**
+These scripts will help you set up a local Openshift cluster using **```oc cluster up```**. This is a single node cluster for dev purposes and doesnt have any persisitent volumes. **Please do not use this setup for any production use cases.**
 
 # Script Examples:
 
