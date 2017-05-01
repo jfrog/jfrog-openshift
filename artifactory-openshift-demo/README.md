@@ -11,6 +11,7 @@ Run the two scripts inside in the order mentioned below and the first script wil
 *   Please download the Openshift CLI from [here](https://github.com/openshift/origin/releases/tag/v1.4.1) and put the binary into your bin folder (usually /usr/local/bin).
 *   Docker version 1.13.1(15353) is required to run these scripts. Please use this specific version as there are known issues with other docker versions.
     *   You can download this version [here](https://download.docker.com/mac/stable/1.13.1.15353/Docker.dmg) *This is an old release of Docker.*
+    *   Add insecure registry to your docker client for __*`172.30.0.0/16`*__
 *   socat is another dependency which is required to run these scripts.
     *   Download the package from [here](http://www.dest-unreach.org/socat/).
     *   For mac users: `brew install socat`.
@@ -27,5 +28,5 @@ Run the two scripts inside in the order mentioned below and the first script wil
 *   Edit your **/etc/hosts** file to add an entry for this route.
     *   The entry should look like: `1.2.3.4	  artifactory-pro-myproject.1.2.3.4.xip.io`  _**Be very careful while editing this file**_
     *   Once the entry has been added in the **/etc/hosts** file the route will take you to the Artifactory instance running inside Openshift.
-
+*   To bring down the cluster, simply type ```oc cluster down```
 **These scripts were written on OS X. They have not been tested on other environments.**
