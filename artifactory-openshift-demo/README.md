@@ -28,5 +28,6 @@ Run the two scripts inside in the order mentioned below and the first script wil
 *   Edit your **/etc/hosts** file to add an entry for this route.
     *   The entry should look like: `1.2.3.4	  artifactory-pro-myproject.1.2.3.4.xip.io`  _**Be very careful while editing this file**_
     *   Once the entry has been added in the **/etc/hosts** file the route will take you to the Artifactory instance running inside Openshift.
-*   To bring down the cluster, simply type ```oc cluster down```
+*   To bring down the cluster, simply type ```oc cluster down```.
+
 **These scripts were written on OS X. They have not been tested on other environments.**
